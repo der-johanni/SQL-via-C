@@ -5,7 +5,7 @@
   - sql_remove_note(). Remove note (Primary key (ID) should be known)
   - sql_display_notes() Print all notes in table
 ### Compiling
-OpenSUSE
+OpenSUSE:
 ```
 sudo zypper install sqlite3 sqlite3-devel
 g++ main.cpp -o app -lsqlite3
